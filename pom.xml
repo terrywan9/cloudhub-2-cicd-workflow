@@ -50,12 +50,12 @@
 							<clustered>false</clustered>
 							<http>
 								<inbound>
-                                    <publicUrl>${public.url}</publicUrl>
+                                    <!-- <publicUrl>${public.url}</publicUrl> -->
 									<forwardSslSession>false</forwardSslSession>
 									<lastMileSecurity>false</lastMileSecurity>
 								</inbound>
 							</http>
-                            <!-- <generateDefaultPublicUrl>true</generateDefaultPublicUrl> -->
+                            <generateDefaultPublicUrl>true</generateDefaultPublicUrl>
 						</deploymentSettings>
 					</cloudhub2Deployment>
 				</configuration>
