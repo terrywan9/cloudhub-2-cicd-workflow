@@ -38,8 +38,11 @@
 						<environment>${environment}</environment>
 						<target>${target}</target>
 						<muleVersion>${app.runtime}</muleVersion>
-						<username>${username}</username>
-						<password>${password}</password>
+						<connectedAppClientId>${username}</connectedAppClientId>
+						<connectedAppClientSecret>${password}</connectedAppClientSecret>
+						<connectedAppGrantType>client_credentials</connectedAppGrantType>
+						<!-- <username>${username}</username> -->
+						<!-- <password>${password}</password> -->
 						<applicationName>${appName}</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
